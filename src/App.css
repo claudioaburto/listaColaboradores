@@ -1,0 +1,51 @@
+h1 {
+  padding-top: 40px;
+  width: 100%;
+}
+.sectionMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .sectionMain {
+    justify-content: center;
+  }
+}
+.sectionAlert {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
+}
+.sectionAlert p {
+  width: 260px;
+}
+.sectionBuscar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+  padding-top: 30px;
+}
+.sectionBuscar input {
+  width: 40%;
+}
+.sectionForm {
+  padding-top: 10px;
+}
+@media (max-width: 1200px) {
+  .sectionBuscar {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionBuscar input {
+    width: 60%;
+  }
+}
+@media (max-width: 1200px) {
+  .sectionAlert {
+    display: flex;
+    justify-content: center;
+  }
+}
